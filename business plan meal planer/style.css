@@ -1,0 +1,434 @@
+html, body {
+  margin: 0;
+  background: rgb(255, 255, 255);
+  overflow-x: hidden;
+
+}
+
+/* css buat header navigation */
+
+.navbar {
+  background: #FCFBF8;
+  z-index: 9999;
+  background-color: transparent;
+  transition:300ms ease;
+
+}
+
+.changeColor {
+  background-color: rgb(46, 50, 48) !important;
+
+}
+
+.navbar a {
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 2em;
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.navbar-nav li a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+.navbar-nav li a:hover {
+background-color: rgb(46, 50, 48);
+transition:300ms ease;
+}
+
+.navbar-nav li a i {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+/* css buat header navigation end */
+
+/* css for first section */
+
+.section-first {
+  height: 100vh;
+  background: linear-gradient( rgba(161, 135, 135, 0.38), rgba(89, 83, 83, 0.84)), url(img/home-screen.jpg);
+  background-position: right center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* css buat section first end */
+
+/* css buat section first responsive */
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+/* css buat section first responsive end */
+
+/* css for second section */
+
+.section-second {
+  background: rgb(255, 255, 255);
+  height: 700px;
+}
+
+.section-second .row .about-us .row {
+  height 400px;
+}
+
+.about-us h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: rgb(11, 10, 10);
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-us p {
+  margin-top: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5em;
+  color: rgb(11, 10, 10);
+}
+
+
+.social-box a {
+  text-decoration: none;
+  color: rgb(11, 10, 10);
+  border-radius: 50%;
+  border: 2px solid #bd9e7f;
+  padding: 12px 10px 10px;
+  margin: 0 9px !important;
+  display: inline-block;
+  font-size: 26px !important;
+  min-height: 10px !important;
+  min-width: 65px !important;
+  transition: 0.4s;
+}
+
+.social-box a:hover {
+  background: rgb(210, 160, 70);
+ transition-timing-function: ease-in-out;
+}
+
+/* css for second section end */
+
+
+/* css for third section */
+
+.section-third {
+  height: 700px;
+  width: 100%;
+}
+
+
+.left-column h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.right-picture {
+  background: url(img/coba1.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.lunch-and-dinner {
+  height: 400px;
+}
+
+.lunch-and-dinner p {
+  font-weight: 400;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.2em;
+}
+
+/* css for third section end */
+
+
+/* css for forth section  */
+
+.forth-section {
+  height: 700px;
+  width: 100%;
+}
+
+
+.right-column-second {
+  background: rgb(255, 255, 255);
+}
+
+.right-column-second h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.right-column-second p {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.second-left-column {
+  background: url(img/coba2.jpg);
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#forth-section-second {
+  height: 400px;
+}
+
+
+/* css for forth section end */
+
+/* css for fifth section  */
+
+.fifth-section {
+  height: 700px;
+}
+
+.right-column-second {
+  background: rgb(255, 255, 255);
+}
+
+
+.third-left-column h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.gambar-kanan-third {
+  background: url(img/coba3.jpeg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.list-vorteil li {
+  list-style: none;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.third-left-column {
+  background: rgb(255, 255, 255);
+}
+
+/* css for fifth section end */
+
+/* css buat section third-baru responsive */
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1544px) {}
+
+@media screen and (max-width: 1544px) {}
+
+/* css buat section third-baru responsive end */
+
+/* css for sixth section */
+
+.sixth-section {
+  background: rgb(255, 255, 255);
+  height: 80vh;
+}
+
+#howitworkh3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.how-it-works p {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+#howitworktext {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+/* css for sixth section end */
+
+.menu-list .row .col-md-12 h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 2em;
+  margin-bottom: 40px;
+}
+
+.menu-list h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.menu-list p {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+
+}
+
+#freemerah {
+  color: rgb(238, 22, 0);
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+.photo-slider {
+  padding-top: 50px;
+}
+
+.photo-slider .container {
+  height: 1000px;
+}
+
+.photo-slider .container .photo-slider-row {
+  border: 2px solid #0f346c;
+  padding-bottom: 40px;
+}
+
+.photo-slider .container .photo-slider-row .section-title {
+  margin-top: -20px;
+  background: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.section-kelima {
+  background: #f2efea;
+  color: rgb(255, 255, 245);
+  height: 600px;
+}
+
+.buat-position {
+  position: relative;
+}
+
+#testimonial4 {
+  padding-top: 6em;
+}
+
+.judul h3 {
+  margin-top: 40px;
+}
+
+.carousel-item img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+#khusus-alex {
+  width: 8%;
+}
+
+.carousel-item p {
+  padding-top: 3em;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.carousel-item h4 {
+  padding-bottom: 3em;
+  font-style: italic;
+  padding-top: 2em;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.parallax-bg {
+  background: linear-gradient( rgba(91, 80, 80, 0.22), rgba(17, 15, 15, 0.39)), url(img/parallax1.jpeg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  /*
+  fixed= parallax
+  scroll = normal
+  */
+}
+
+.judul h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* css buat section keempat end*/
+
+.section-keenam {
+  height: 40vh;
+  background: rgb(23, 21, 21);
+  color: rgb(233, 228, 238);
+  position: relative;
+}
+
+.footer-cuy {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-30%);
+  left: 50%;
+  transform: translateX(-50%);
+}
